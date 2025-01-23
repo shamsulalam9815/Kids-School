@@ -261,7 +261,7 @@ body > header > nav > ul > li:nth-child(4) > a {
     grid-row: 1 / span 2;
     position: relative;
 }
-.stories_items.item2.special {
+.stories_items.item3.special {
     display: none;
 }
 .stories_items.item1 .span,
@@ -454,6 +454,9 @@ footer {
     }
     .stories_items.item1.hide {
         display: none;
+    }
+    .stories_items.item3.special {
+        display: block;
     }
     .stories_items img {
         width: 100%;
